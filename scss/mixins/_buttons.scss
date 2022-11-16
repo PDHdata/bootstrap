@@ -32,6 +32,16 @@
   --#{$prefix}btn-disabled-color: #{$disabled-color};
   --#{$prefix}btn-disabled-bg: #{$disabled-background};
   --#{$prefix}btn-disabled-border-color: #{$disabled-border};
+
+  // pdh moving gradient buttons
+  background: linear-gradient(65deg, $pdhbrandsecond 0%, var(--#{$prefix}btn-bg)  51%, $pdhbrandsecond 100%);
+  background-size: 200% auto;
+  transition: 0.2s;
+  
+  &:hover {
+    // pdh moving gradient buttons
+    background-position: right center;
+  }
 }
 // scss-docs-end btn-variant-mixin
 
@@ -46,7 +56,7 @@
   --#{$prefix}btn-color: #{$color};
   --#{$prefix}btn-border-color: #{$color};
   --#{$prefix}btn-hover-color: #{$color-hover};
-  --#{$prefix}btn-hover-bg: #{$active-background};
+  // --#{$prefix}btn-hover-bg: #{$active-background};
   --#{$prefix}btn-hover-border-color: #{$active-border};
   --#{$prefix}btn-focus-shadow-rgb: #{to-rgb($color)};
   --#{$prefix}btn-active-color: #{$active-color};
@@ -57,6 +67,16 @@
   --#{$prefix}btn-disabled-bg: transparent;
   --#{$prefix}btn-disabled-border-color: #{$color};
   --#{$prefix}gradient: none;
+
+  // pdh moving gradient buttons
+  background: linear-gradient(65deg, transparent 0%, mix($color, rgba(255,255,255,0), 10%)  51%, $color 100%);
+  background-size: 200% auto;
+  transition: 0.2s;
+  
+  &:hover {
+    // pdh moving gradient buttons
+    background-position: right center;
+  }
 }
 // scss-docs-end btn-outline-variant-mixin
 
