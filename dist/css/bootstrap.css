@@ -36,6 +36,18 @@
   font-weight: normal;
   font-display: swap;
 }
+.card-normal {
+  border-radius: 20px;
+  width: 488px;
+  height: 680px;
+}
+
+.card-small {
+  border-radius: 10px;
+  width: 244px;
+  height: 340px;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
