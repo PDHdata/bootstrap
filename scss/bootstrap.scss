@@ -13,6 +13,9 @@
 @import "mixins";
 @import "utilities";
 
+// requires variables
+@import "abbr";
+
 // Layout & components
 @import "root";
 @import "reboot";
