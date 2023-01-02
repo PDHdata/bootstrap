@@ -27,7 +27,7 @@
 
 .text-bg-info {
   color: #000 !important;
-  background-color: RGBA(13, 202, 240, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(67, 137, 162, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-warning {
@@ -72,10 +72,10 @@
 }
 
 .link-info {
-  color: #0dcaf0 !important;
+  color: #4389A2 !important;
 }
 .link-info:hover, .link-info:focus {
-  color: #3dd5f3 !important;
+  color: #69a1b5 !important;
 }
 
 .link-warning {
